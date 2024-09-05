@@ -1,0 +1,40 @@
+:host {
+    font-family: sans-serif;
+    border: 2px solid purple;
+    margin: 30px;
+    padding: 30px;
+    display: block;
+    width: 320px;
+    max-width: 100%;
+}
+
+form input {
+    font: inherit;
+    color: purple;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form button:focus {
+    outline: none;
+}
+
+form button {
+    font: inherit;
+    border: none;
+    background-color: rgb(120, 62, 120);
+    color: white;
+    padding: 4px 10px;
+    display: block;
+    cursor: pointer;
+}
+
+form button:hover,
+form button:active {
+    background-color: rgb(87, 0, 87);
+}
+
+form button:disabled {
+    background-color: grey;
+}
